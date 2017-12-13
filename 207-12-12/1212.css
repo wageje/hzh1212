@@ -1,0 +1,208 @@
+a{
+    color: #000;
+}
+.pin-ul{
+	width: 100%;
+	height: 450px;
+	background-color: orange;
+	font-size: 1.2em;
+	border: 1px #fff solid;
+    border-radius: 3px;
+    margin-left: -0.9em;
+}
+.pin-ul li{
+	border: 1px #ccc solid;
+	width: 100%;
+	height: 25%;
+/*	text-align: center;*/
+}
+.pin-ul a{
+    color: #000;
+}
+.lun-div{
+    margin-left: -1.5em;
+}
+.right-div{
+    background-color:orange;
+    height:450px;
+    border: 1px #fff solid;
+    border-radius: 3px;
+   /* padding:10px;  */ 
+   margin-left:1.3em;
+}
+.right-div h3{
+    padding-left: 3px;
+}
+.right-div p{
+    padding-left: 7px;
+    padding-right: 3px;
+}
+
+.product-div{
+    background-color:#fff;
+    margin-top:0.3em; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.product{
+    height: 280px;
+}
+.product-div p{
+    margin-top: 7px;
+}
+.product-div img{
+    margin: 0 auto;
+    width: 140px;
+    height: 115px;
+}
+.product-div img:hover{
+    width: 150px;
+    height: 120px;
+}
+.JM{
+    background-color: #4169E1;
+    height: 2.5em;
+    line-height: 2.5em;
+    color: #fff;
+    border-top-left-radius: 10px; 
+    font-size: 20px;
+}
+.YA{
+    background-color: #76488e;
+    height: 2.5em;
+    line-height: 2.5em;
+    color: #fff;
+    border-top-right-radius: 10px; 
+    font-size: 20px;
+}
+.BCF{
+    background-color: orange;
+    height: 2.5em;
+    line-height: 2.5em;
+    color: #fff;
+    border-top-right-radius: 10px; 
+    border-top-left-radius: 10px;
+    font-size: 20px;
+}
+.p-div{
+    border: 2px groove orange;
+    font-size: 1.2em;
+}
+.Original-price{
+    text-decoration:line-through;
+    color:  #4F4F4F;
+}
+.num-sp{
+    font-size: 0.88em;
+}
+#JM{
+    -webkit-animation-delay: 100ms;
+    -webkit-animation-duration: 3000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes GrowQuare1 {
+    to {
+        background-color: #76488e;
+    }
+}
+#YA{
+    -webkit-animation-delay: 100ms;
+    -webkit-animation-duration: 3000ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes GrowQuare2 {
+    to {
+        background-color: #4169E1;
+    }
+}
+.ie8-pin{
+/*    float: left;*/
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 115px;
+    width: 1200px;
+    margin-left: -1.2%;
+}
+.ie8-pin li{
+    float: left;
+    width: 299.3px;
+    list-style-type: none;
+    height: 115px;
+
+}
+.ie8-right-div{
+    height: 138px;
+    text-align: center;
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 5px;
+}
+.ie8-right-div h3{
+    margin-top: 6px;
+}
+.login-div{
+    width:300px;
+    height:300px;
+    margin:auto;
+    background-color:#fff;
+    border-radius:50%;
+    font-size:30px;
+    color:#1874CD;
+    opacity:1;
+    position:fixed;
+    top:40%;
+    left:40%;
+    background-image: url('img/38269.jpg');
+    background-repeat: repeat;
+    text-align: center;
+    display: none;
+    z-index: 1999;
+}
+.login-span{
+    color: red;
+}
+.bost-img{
+    height: 200px!important;
+    width: 599px!important;
+}
+/*VX端*/
+@media screen and (max-width: 760px) {
+    .pin-ul{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        height: 14em;
+    }
+    .pin-ul li{
+        width: 50%;
+        float: left;
+        list-style-type: none;
+        height: 50%;
+    }
+    .lun-div{
+        margin: 0;
+    }
+    .right-div{
+        height: 11em;
+        margin: 0;
+        text-align: center;
+    }
+    .product{
+        height: 290px;
+/*        border: 1px solid #cccccc;*/
+    }
+    .pro3{
+        border-right: 1px solid #cccccc;
+        border-top: 1px solid #cccccc;
+    }
+    .da-img{
+        height: 75px;
+    }
+
+}
